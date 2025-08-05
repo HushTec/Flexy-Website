@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 F1 Teams</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #0f0f0f;
+            color: white;
+        }
+
+        .header {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(90deg, #e10600 0%, #000000 100%);
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+
+        .gallery {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        .team {
+            width: 300px;
+            background: #1a1a1a;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .team:hover {
+            transform: scale(1.03);
+        }
+
+        .team-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 2px solid #e10600;
+        }
+
+        .team-info {
+            padding: 1rem;
+        }
+
+        .team-name {
+            font-size: 1.3rem;
+            margin-bottom: 0.3rem;
+            color: #e10600;
+        }
+
+        .team-drivers {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-bottom: 0.5rem;
+        }
+
+        .team-base {
+            font-size: 0.8rem;
+            color: #777;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            background-color: #000;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .gallery {
+                gap: 1rem;
+            }
+            .team {
+                width: 100%;
+                max-width: 350px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>2024 Formula 1 Teams</h1>
+        <p class="subtitle">Official Constructors Championship</p>
+    </div>
+
+    <div class="gallery">
+        <div class="team">
+            <img src="images/RB.jpg" alt="Red Bull" class="team-img">
+            <div class="team-info">
+                <h2 class="team-name">Red Bull Racing</h2>
+                <p class="team-drivers">Max Verstappen · Sergio Pérez</p>
+                <p class="team-base">Milton Keynes, UK</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="images/MERC.jpg" alt="Mercedes" class="team-img">
+            <div class="team-info">
+                <h2 class="team-name">Mercedes</h2>
+                <p class="team-drivers">Lewis Hamilton · George Russell</p>
+                <p class="team-base">Brackley, UK</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="images/FR.jpg" alt="Ferrari" class="team-img">
+            <div class="team-info">
+                <h2 class="team-name">Ferrari</h2>
+                <p class="team-drivers">Charles Leclerc · Carlos Sainz</p>
+                <p class="team-base">Maranello, Italy</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="images/MC.jpg" alt="McLaren" class="team-img">
+            <div class="team-info">
+                <h2 class="team-name">McLaren</h2>
+                <p class="team-drivers">Lando Norris · Oscar Piastri</p>
+                <p class="team-base">Woking, UK</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="images/AM.jpg" alt="Aston Martin" class="team-img">
+            <div class="team-info">
+                <h2 class="team-name">Aston Martin</h2>
+                <p class="team-drivers">Fernando Alonso · Lance Stroll</p>
+                <p class="team-base">Silverstone, UK</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="images/AL.jpg" alt="Alpine" class="team-img">
+            <div class="team-info">
+                <h2 class="team-name">Alpine</h2>
+                <p class="team-drivers">Pierre Gasly · Esteban Ocon</p>
+                <p class="team-base">Enstone, UK</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="images/W.jpg" alt="Williams" class="team-img">
+            <div class="team-info">
+                <h2 class="team-name">Williams</h2>
+                <p class="team-drivers">Alexander Albon · Logan Sargeant</p>
+                <p class="team-base">Grove, UK</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="images/AT.jpg" alt="RB" class="team-img">
+            <div class="team-info">
+                <h2 class="team-name">Visa Cash App RB</h2>
+                <p class="team-drivers">Daniel Ricciardo · Yuki Tsunoda</p>
+                <p class="team-base">Faenza, Italy</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="images/S.jpg" alt="Stake" class="team-img">
+            <div class="team-info">
+                <h2 class="team-name">Stake F1 Team Kick Sauber</h2>
+                <p class="team-drivers">Valtteri Bottas · Zhou Guanyu</p>
+                <p class="team-base">Hinwil, Switzerland</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="images/H.jpg" alt="Haas" class="team-img">
+            <div class="team-info">
+                <h2 class="team-name">Haas</h2>
+                <p class="team-drivers">Nico Hülkenberg · Kevin Magnussen</p>
+                <p class="team-base">Kannapolis, USA</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Formula 1 World Championship Limited</p>
+    </footer>
+</body>
+</html>
